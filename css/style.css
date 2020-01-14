@@ -1,19 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 section {
   height: 100vh;
 }
 
-img {
+.main-page {
   z-index: -12;
-  position: absolute;
-
+  width: 100vw;
 }
 
 nav {
-    
-    position: absolute;
+  position: fixed;
 }
 
 body {
+  overflow-x: hidden;
   background: #e8e0a2;
   color: azure;
 }
@@ -26,19 +31,18 @@ body {
 .box-right {
   background: #0e2a38;
   width: 100%;
-  height: 95.7vh;
+  height: 100vh;
   padding-bottom: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  
 }
 
 .box-left {
   background: rgba(14, 42, 56, 0.67);
   width: 100%;
-  height: 95.7vh;
+  height: 100vh;
   padding-bottom: 2%;
   display: flex;
   justify-content: center;
@@ -64,4 +68,9 @@ body {
 
 .white {
   background: brown;
+}
+
+.road {
+  height: 100vh;
+  float: right;
 }
